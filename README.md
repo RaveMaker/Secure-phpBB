@@ -9,8 +9,13 @@ Also supports SELinux Enforcing.
 
 1. Clone this script from github or copy the files manually to your preferred directory.
 
-2. Edit script and point 'www' param to your phpBB folder.
-- for example: /var/www/html  
+2. Edit script and point 'www' param to the folder containing your phpBB folders.
+
+- for example if phpBB is located in /var/www/html/phpbb:
+
+```
+/var/www/html
+```
 
 > config.php is set to root:apache with 640 permissions. 
 
